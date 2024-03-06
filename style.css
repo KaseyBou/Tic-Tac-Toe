@@ -8,11 +8,14 @@
 body {
   font-family: 'poppins', sans-serif;
   padding: 50px;
+  max-width: 500px;
+  margin: auto;
 }
 
 h1 {
   margin-top: 0%;
   font-size: 50px;
+  text-align: center;
 }
 
 .game-board {
@@ -32,8 +35,8 @@ h1 {
   font-size: 100px;
   height: 100%;
   width: 100%;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
   cursor: pointer;
 }
 
@@ -47,7 +50,4 @@ h1 {
 
 .game-square:nth-child(n + 7) {
   border-bottom: none;
-}
-
-.center {
 }

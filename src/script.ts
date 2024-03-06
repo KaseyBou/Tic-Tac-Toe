@@ -169,5 +169,5 @@ const bodyText = (words: string): string => {
 };
 
 createTitle('Tic-Tac-Toe');
-bodyText('Created with ❤️ using Typescript only by Kasey Bourdier');
+bodyText('Created using Typescript only by Kasey Bourdier');
 resetGame();
